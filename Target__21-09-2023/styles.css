@@ -1,0 +1,38 @@
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background: #facfb6;
+}
+
+main {
+  background: #de9473;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+div,
+div::before,
+div::after {
+  width: 100px;
+  height: 150px;
+  margin: 75px auto;
+  border-radius: 50%;
+  background: #a4281f;
+}
+
+div::before,
+div::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+}
+
+div::before {
+  right: 70px;
+}
+
+div::after {
+  left: 70px;
+}
