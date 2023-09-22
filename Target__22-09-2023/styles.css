@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background: #cdcdcd;
+}
+main {
+  background: #fff;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+div,
+div::after {
+  background: #000;
+}
+div {
+  margin: 120px 0;
+  width: 400px;
+  height: 60px;
+  position: relative;
+}
+div::after {
+  position: absolute;
+  content: '';
+  width: 60px;
+  height: 120px;
+  top: 60px;
+  left: 170px;
+}
