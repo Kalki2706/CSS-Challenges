@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+main {
+  background: #0b2429;
+  width: 400px;
+  height: 300px;
+}
+div {
+  border-left: 141px solid #f3ac3c;
+  border-bottom: 141px solid transparent;
+}
